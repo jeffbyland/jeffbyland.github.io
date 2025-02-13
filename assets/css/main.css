@@ -3013,6 +3013,11 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 		}
 
+		#header img {
+			width:100%;
+    			max-width:100px;
+		}
+
 		#header .actions {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
