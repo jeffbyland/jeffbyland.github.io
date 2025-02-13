@@ -2508,6 +2508,7 @@ input, select, textarea {
 			}
 
 		.image.fill {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/FOUR.jpg");
 			height: 100%;
 			left: 0;
 			position: absolute;
