@@ -2824,9 +2824,9 @@ input, select, textarea {
 
 		.main.style2 {
 			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(0, 0, 0, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			/* background-image: url("../../images/pic01.jpg"), url("../../images/pic01.jpg"); */
 			background-size: auto,							cover;
 		}
 
@@ -2917,7 +2917,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/FOUR.jpg");
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/ONE.jpg");
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3005,19 +3005,20 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
+	
+
 		#header h1 {
 			margin: 0;
+			filter: brightness(100%);
 		}
 
 		#header p {
 			margin: 1em 0 0 0;
 		}
-
 		#header img {
-			width:100%;
-    			max-width:100px;
-		}
-
+				width:100%;
+				max-width:100px;
+			}
 		#header .actions {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
